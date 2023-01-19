@@ -23,7 +23,7 @@ public class WeatherController : MonoBehaviour
         StartCoroutine("GetNewWeather");
     }
 
-    public IEnumerator GetNewWeather()
+    IEnumerator GetNewWeather()
     {
         UnityWebRequest unityWebRequest = UnityWebRequest.Get("http://api.openweathermap.org/data/2.5/weather?id=" 
             + locationCode 
