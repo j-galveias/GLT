@@ -13,7 +13,7 @@ public class CubeController : MonoBehaviour
     public Vector3 redPos;
     public Vector3 greenPos;
     public Vector3 bluePos;
-    public float duration;
+    public float moveDuration;
 
     // Start is called before the first frame update
     void Start()
@@ -83,10 +83,10 @@ public class CubeController : MonoBehaviour
     {
         Vector3 startPosition = cubeTransform.position;
         float startTime = Time.time;
-        while (Time.time - startTime < duration)
+        while (Time.time - startTime < moveDuration)
         {
-            float t = (Time.time - startTime) / duration;
-            cubeTransform.position = Vector3.Lerp(startPosition, destination, t);
+            float timePercentage = (Time.time - startTime) / moveDuration;
+            cubeTransform.position = Vector3.Lerp(startPosition, destination, timePercentage);
             yield return null;
         }
         cubeTransform.position = destination;

@@ -1214,7 +1214,7 @@ MonoBehaviour:
   redPos: {x: 8, y: 0.5, z: 0}
   greenPos: {x: 12, y: 0.5, z: 0}
   bluePos: {x: 16, y: 0.5, z: 0}
-  duration: 0.3
+  moveDuration: 0.3
 --- !u!4 &1688883691
 Transform:
   m_ObjectHideFlags: 0

@@ -17,7 +17,7 @@ public class WeatherController : MonoBehaviour
 
     string locationCode;
 
-    public void DoSomething(string code)
+    public void WeatherButtonClick(string code)
     {
         locationCode = code;
         StartCoroutine("GetNewWeather");
