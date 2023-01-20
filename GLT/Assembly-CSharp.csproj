@@ -53,11 +53,13 @@
     <UnityVersion>2021.1.19f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Clock.cs" />
-    <Compile Include="Assets\Scripts\WeatherController.cs" />
-    <Compile Include="Assets\Scripts\Weather.cs" />
-    <Compile Include="Assets\Scripts\LoadImage.cs" />
-    <Compile Include="Assets\Scripts\DownloadVideo.cs" />
+    <Compile Include="Assets\Scripts\WeatherScene\Clock.cs" />
+    <Compile Include="Assets\Scripts\WeatherScene\WeatherController.cs" />
+    <Compile Include="Assets\Scripts\DownloadScene\LoadImage.cs" />
+    <Compile Include="Assets\Scripts\WeatherScene\Weather.cs" />
+    <Compile Include="Assets\Scripts\DownloadScene\DownloadVideo.cs" />
+    <Compile Include="Assets\Scripts\CubesScene\CubeController.cs" />
+    <Compile Include="Assets\SceneButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

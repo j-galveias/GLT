@@ -340,11 +340,13 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/VSSettingsProvider.ref.dll"
-"Assets/Scripts/Clock.cs"
-"Assets/Scripts/DownloadVideo.cs"
-"Assets/Scripts/LoadImage.cs"
-"Assets/Scripts/Weather.cs"
-"Assets/Scripts/WeatherController.cs"
+"Assets/SceneButton.cs"
+"Assets/Scripts/CubesScene/CubeController.cs"
+"Assets/Scripts/DownloadScene/DownloadVideo.cs"
+"Assets/Scripts/DownloadScene/LoadImage.cs"
+"Assets/Scripts/WeatherScene/Clock.cs"
+"Assets/Scripts/WeatherScene/Weather.cs"
+"Assets/Scripts/WeatherScene/WeatherController.cs"
 -langversion:8.0
 
 /deterministic
