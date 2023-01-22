@@ -130,7 +130,8 @@ public class CubeController : MonoBehaviour
 
     void Swap(Transform cubeT1, Transform cubeT2)
     {
+        var temp = cubeT1.position;
         StartCoroutine(MoveCube(cubeT1, cubeT2.position));
-        StartCoroutine(MoveCube(cubeT2, cubeT1.position));
+        StartCoroutine(MoveCube(cubeT2, temp));
     }
 }
